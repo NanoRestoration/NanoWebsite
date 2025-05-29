@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+:root {
+  --midnight-blue: #1b1c37;
+  --purple-gradient: #675ce7;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@theme {
+  --color-midnight-blue: #1b1c37;
+  --color-purple-gradient: #675ce7;
+  --color-dark-purple: #110537;
+  --animate-change-text: change-text 5s ease-in-out infinite;
+  --color-orange-gradient: #e76e37;
+  --breakpoint-xs: 30rem;
+  --color-offWhite: #f0f0f0;
+  --color-darker-purple: #5047ad;
+}
+
+@keyframes change-text {
+  0% {
+    content: "Wood";
+  }
+
+  33% {
+    content: "Concrete";
+  }
+
+  66% {
+    content: "Shingles";
+  }
+
+  100% {
+    content: "Membrain";
+  }
+}
+
+body {
+  background: var(--midnight-blue);
+  color: #ffff;
+  font-family: Montserrat, sans-serif;
+  overflow-x: hidden;
+}
+
+.text-cycler span {
+  position: absolute;
+  opacity: 0;
+  animation: fadeCycle 8s infinite;
+  text-align: center;
+  width: fit-content;
+}
+
+.text-cycler span:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.text-cycler span:nth-child(2) {
+  animation-delay: 2s;
+}
+
+.text-cycler span:nth-child(3) {
+  animation-delay: 4s;
+}
+
+.text-cycler span:nth-child(4) {
+  animation-delay: 6s;
+}
+
+@keyframes fadeCycle {
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  35% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
