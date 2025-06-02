@@ -8,7 +8,7 @@ export default function Home() {
       <main className="bg-midnight-blue z-10">
         <section
           id="Home"
-          className="pt-20 h-[100vh] w-full flex flex-col justify-start gap-20 items-center sm:text-4xl text-2xl font-semibold bg-[url(/Roof-Spray-2.PNG)] bg-cover"
+          className="pt-10 h-[100vh] w-full flex flex-col justify-start gap-10 items-center sm:text-4xl text-2xl font-semibold bg-[url(/Roof-Spray-2.PNG)] bg-cover"
         >
           <div className="text-center w-2/3">
             <div className="">
@@ -129,7 +129,7 @@ export default function Home() {
           id="shingleProtection"
           className="w-full bg-offWhite text-black py-20"
         >
-          <div className="flex justify-evenly my-10 m-auto md:flex-row flex-col-reverse">
+          <div className="flex justify-evenly  m-auto md:flex-row flex-col-reverse">
             <div className="md:w-1/2 w-4/5 m-auto">
               <Image
                 src={"/products/surface/Crane_application.png"}
@@ -178,7 +178,7 @@ export default function Home() {
           id="woodConcrete"
           className="w-full bg-offWhite text-black py-20"
         >
-          <div className="flex justify-evenly my-10  m-auto md:flex-row flex-col">
+          <div className="flex justify-evenly   m-auto md:flex-row flex-col">
             <div className="md:w-1/3 w-4/5 m-auto">
               <h1 className="text-4xl lg:text-6xl font-semibold">
                 Wood and Concrete Nanosealers

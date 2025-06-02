@@ -20,10 +20,12 @@ export default function ProductGrid({
             className="h-96 overflow-hidden w-full rounded-t-2xl"
           />
         </div>
-        <div className="p-2  border-2 border-amber-400">
-          <div className="p-5  h-full">
-            <h3 className="font-semibold max-md:text-lg py-2">{title}</h3>
-            <h1 className="text-[18px] py-2">{desc}</h1>
+        <div className="p-2 ">
+          <div className="p-5 max-md:p-1  h-full">
+            <h3 className="font-semibold max-md:text-lg py-2 text-center">
+              {title}
+            </h3>
+            <h1 className="text-[18px] py-2 text-center">{desc}</h1>
             <div className=" flex flex-col align-middle content-center items-center py-2  text-[16px] ">
               <Button link={buttonLink} title={buttonTitle} />
             </div>
