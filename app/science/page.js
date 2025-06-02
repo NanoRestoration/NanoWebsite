@@ -83,26 +83,26 @@ export default function Science() {
         <div>
           <h2 className="text-4xl">Shingle Classes</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:w-2/3 w-4/5 m-auto gap-3.5 mb-10 mt-5">
-            <div className="w-4/5 m-auto bg-white border-0 rounded-lg p-2 text-midnight-blue h-full ">
+            <div className="w-[90%] p-4 m-auto bg-white border-0 rounded-lg  text-midnight-blue h-full ">
               <h3 className="text-3xl font-semibold">Class 1</h3>
               <p className="text-lg font-medium">
                 Least resistant, can withstand at most a 1.25-inch steel ball
                 test.
               </p>
             </div>
-            <div className="w-4/5 m-auto bg-white border-0 rounded-lg p-2 text-midnight-blue h-full">
+            <div className="w-[90%] p-4  m-auto bg-white border-0 rounded-lg text-midnight-blue h-full">
               <h3 className="text-3xl font-semibold">Class 2</h3>
               <p className="text-lg font-medium">
                 Can withstand at most a 1.5-inch steel ball test.
               </p>
             </div>
-            <div className="w-4/5 m-auto bg-white border-0 rounded-lg p-2 text-midnight-blue h-full">
+            <div className="w-[90%] p-4  m-auto bg-white border-0 rounded-lg  text-midnight-blue h-full">
               <h3 className="text-3xl font-semibold">Class 3</h3>
               <p className="text-lg font-medium">
                 Can withstand at most a 1.75-inch steel ball test.
               </p>
             </div>
-            <div className="w-4/5 m-auto bg-white border-0 rounded-lg p-2 text-midnight-blue h-full">
+            <div className="w-[90%] p-4  m-auto bg-white border-0 rounded-lg  text-midnight-blue h-full">
               <h3 className="text-3xl font-semibold">Class 4</h3>
               <p className="text-lg font-medium">
                 Highest resistance, can withstand up to a 2-inch steel ball
