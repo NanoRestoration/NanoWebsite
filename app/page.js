@@ -8,7 +8,7 @@ export default function Home() {
       <main className="bg-midnight-blue z-10">
         <section
           id="Home"
-          className="pt-10 h-[100vh] w-full flex flex-col justify-start gap-10 items-center sm:text-4xl text-2xl font-semibold bg-[url(/Roof-Spray-2.PNG)] bg-cover"
+          className="pt-10 h-[100vh] w-full flex flex-col justify-start gap-20 max-md:gap-10 items-center sm:text-4xl text-2xl font-semibold bg-[url(/Roof-Spray-2.PNG)] bg-cover"
         >
           <div className="text-center w-2/3">
             <div className="">
