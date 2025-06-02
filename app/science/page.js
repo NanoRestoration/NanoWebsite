@@ -7,10 +7,10 @@ export const metadata = {
 
 export default function Science() {
   return (
-    <div className="w-full pt-24 max-md:px-4">
+    <div className="w-full pt-24 ">
       <section
         id="title"
-        className="min-h-96  w-full bg-[url(/products/surface/Shingles.jpg)] bg-center"
+        className="min-h-96  w-full bg-[url(/products/surface/Shingles.jpg)] bg-center "
       >
         <div className="w-full min-h-96  bg-linear-to-r from-midnight-blue via-midnight-blue/90 to-midnight-blue/60 xs:p-20 pt-20 px-2">
           <h1 className="w-fit p-2 bg-offWhite text-dark-purple font-bold rounded-2xl m-auto text-center">
@@ -20,7 +20,7 @@ export default function Science() {
             <h1 className="text-4xl font-semibold mb-10">
               The Last Roof You&apos;ll Ever Need.
             </h1>
-            <p className=" text-xl">
+            <p className=" text-xl max-md:px-2">
               GoNano is the first and only North American company to bring to
               market a sealant that replaces all sealants. Having said this, the
               technology behind GoNano spans decades and has gone through
@@ -35,7 +35,7 @@ export default function Science() {
         id="Sealants"
         className="min-h-screen bg-white text-midnight-blue text-center py-30"
       >
-        <h1 className="sm:text-6xl xs:text-5xl text-4xl font-bold my-5">
+        <h1 className="sm:text-6xl xs:text-5xl text-4xl font-bold  max-md:px-2">
           GoNano vs Traditional Sealants
         </h1>
         <div className="flex lg:w-4/5 justify-evenly text-2xl font-medium mt-20 mx-auto md:flex-row flex-col">
@@ -151,7 +151,7 @@ export default function Science() {
         className="min-h-fit text-center  bg-[url(/products/surface/Crane_application.png)] bg-center bg-cover"
       >
         <div className="bg-midnight-blue/90 w-full h-full py-30">
-          <h1 className="text-lg font-semibold">
+          <h1 className="text-lg font-semibold max-md:px-2">
             The result: a unified barrier against strains caused by
             environmental factors
           </h1>
@@ -226,8 +226,11 @@ export default function Science() {
           </div>
         </div>
       </section>
-      <section id="Environment" className="min-h-fit py-30 text-center">
-        <h1 className="sm:text-6xl xs:text-5xl text-4xl font-bold my-5">
+      <section
+        id="Environment"
+        className="min-h-fit py-30 text-center max-md:px-2"
+      >
+        <h1 className="sm:text-6xl xs:text-5xl text-4xl font-bold ">
           Environmental Impacts
         </h1>
         <div className="xs:w-2/3 m-auto mt-10">
