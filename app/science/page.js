@@ -33,7 +33,7 @@ export default function Science() {
       </section>
       <section
         id="Sealants"
-        className="min-h-screen bg-white text-midnight-blue text-center py-30"
+        className="min-h-screen bg-white text-midnight-blue text-center py-30 px-2"
       >
         <h1 className="sm:text-6xl xs:text-5xl text-4xl font-bold  max-md:px-2">
           GoNano vs Traditional Sealants
@@ -151,7 +151,7 @@ export default function Science() {
         className="min-h-fit text-center  bg-[url(/products/surface/Crane_application.png)] bg-center bg-cover"
       >
         <div className="bg-midnight-blue/90 w-full h-full py-30">
-          <h1 className="text-lg font-semibold max-md:px-2">
+          <h1 className="text-lg font-semibold max-lg:px-4">
             The result: a unified barrier against strains caused by
             environmental factors
           </h1>
@@ -180,7 +180,7 @@ export default function Science() {
         id="Advantages"
         className="bg-purple-gradient min-h-fit py-30 text-center w-full"
       >
-        <h1 className="sm:text-6xl xs:text-5xl text-4xl font-bold my-5">
+        <h1 className="sm:text-6xl xs:text-5xl text-4xl font-bold my-5 max-lg:px-4">
           GoNano Advantages
         </h1>
         <div className="flex justify-evenly lg:w-4/5 m-auto pt-2 sm:flex-row flex-col">
