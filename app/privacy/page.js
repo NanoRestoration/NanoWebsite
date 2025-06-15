@@ -13,11 +13,10 @@ export default function Privacy() {
           <section className="text-left text-[14px]">
             {" "}
             <p>
-              Welcome to GO Nano ("we", "us", or "our"). Your privacy is
-              important to us. This Privacy Policy outlines how we collect, use,
-              disclose, and protect your personal information when you visit our
-              website [insert website URL], use our services, or otherwise
-              interact with us.
+              Welcome to GO Nano. Your privacy is important to us. This Privacy
+              Policy outlines how we collect, use, disclose, and protect your
+              personal information when you visit our website [insert website
+              URL], use our services, or otherwise interact with us.
             </p>
             <h3 className=" text-xl font-bold pt-4">
               1. Information We Collect
