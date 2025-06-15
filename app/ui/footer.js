@@ -38,6 +38,7 @@ export default function Footer() {
                     <p className="hover:text-purple-gradient hover:underline"> <Link href={"/"}>Home</Link></p>
                     <p className="hover:text-purple-gradient hover:underline"> <Link href={"/about"}>About</Link></p>
                     <p className="hover:text-purple-gradient hover:underline"> <Link href={"/science"}>Science</Link></p>
+                     <p className="hover:text-purple-gradient hover:underline"> <Link href={"/privacy"}>Privacy Policy</Link></p>
                 </div>
             </div>
         </div>
